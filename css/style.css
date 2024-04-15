@@ -212,10 +212,6 @@ textarea:focus {
     vertical-align: middle;
 }
 
-.logo .img-responsive {
-    width: 87px;
-    height: 56px;
-}
 
 
 .float-right {
@@ -911,7 +907,7 @@ nav ul li.active {
     left: 0%;
     right: 0%;
     bottom: 0%;
-    background: rgba(34, 163, 255, 0.65);
+    background: #343837;
 }
 .sw_banner_bottom_shap_img_wrapper{
 	float:left;
@@ -1305,7 +1301,7 @@ nav ul li.active {
 .sw_news_letter_wrapper {
     float: left;
     width: 100%;
-	background:#328fd1;
+	background: #74ac04;
     padding-top: 60px;
     padding-bottom: 60px;
 }

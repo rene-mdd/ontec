@@ -211,10 +211,7 @@ textarea:focus {
     display: inline-block;
     vertical-align: middle;
 }
-.logo .img-responsive {
-    width: 87px;
-    height: 56px;
-}
+
 .float-right {
     float: right;
 }
