@@ -211,7 +211,9 @@ textarea:focus {
     display: inline-block;
     vertical-align: middle;
 }
-
+.pimec-logo {
+    width: auto !important;
+}
 .float-right {
     float: right;
 }
