@@ -39,6 +39,34 @@ Author:   Webstrot
     <link rel="shortcut icon" type="image/icon" href="images/favicon.png" />
 </head>
 
+<style>
+    .project-title {
+        color: #333;
+        font-size: 1.2em;
+        /* Tamaño de la fuente */
+        margin-bottom: 10px;
+        /* Espacio inferior */
+        /* Otros estilos que desees aplicar */
+    }
+
+    .blog-image-wrapper {
+        /*width: 338px;*/
+        height: 258px;
+        overflow: hidden;
+    }
+
+    .blog-image-wrapper2 {
+        height: 250px;
+    }
+
+    .blog-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        align-content: center;
+    }
+</style>
+
 <body>
     <!-- preloader Start -->
     <div id="preloader">
@@ -64,7 +92,7 @@ Author:   Webstrot
                     <nav id="primary-nav" class="dropdown nav_left_margin">
                         <ul class="dropdown menu navigation cart_dropdown_wrapper">
                             <li><a href="index.html" title="">Home</a>
-                       
+
                             </li>
                             <li><a href="sobre_nosotros.html" title="">Sobre Nosotros</a>
                             </li>
@@ -173,7 +201,8 @@ Author:   Webstrot
                             <div class="search-wrapper">
                                 <div class="et_navbar_search_wrapper hidden-xs">
                                     <div class="et_search_bar" id="search_button">
-                                        <a href="javascript:;"><i class="fa fa-search waves-effect waves-light" aria-hidden="true"></i></a>
+                                        <a href="javascript:;"><i class="fa fa-search waves-effect waves-light"
+                                                aria-hidden="true"></i></a>
                                     </div>
                                     <div id="search_open" class="et_search_box">
                                         <input type="text" placeholder="Search text...">
@@ -184,11 +213,14 @@ Author:   Webstrot
                             <div class="sw_icon_bar">
                                 <ul class="tc_login_btn_wrapper">
                                     <li class="dropdown tc_login_btn">
-                                        <a class="dropdown-toggle hvr-float-shadow active waves-effect waves-light" data-toggle="dropdown" href="javascript:;"><i class="fa fa-ellipsis-v"></i></a>
-                                    <ul class="dropdown-menu tc_menu_fixed_border">
+                                        <a class="dropdown-toggle hvr-float-shadow active waves-effect waves-light"
+                                            data-toggle="dropdown" href="javascript:;"><i
+                                                class="fa fa-ellipsis-v"></i></a>
+                                        <ul class="dropdown-menu tc_menu_fixed_border">
                                             <li class="dropdown_hover"><a href="register.html">Register</a></li>
                                             <li class="dropdown_hover"><a href="login.html">Login</a></li>
-                                            <li class="dropdown_hover hidden-lg"><a href="javascript:;">Free Quote</a></li>
+                                            <li class="dropdown_hover hidden-lg"><a href="javascript:;">Free Quote</a>
+                                            </li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -209,64 +241,67 @@ Author:   Webstrot
                                 <div class="mobile-menu">
                                     <nav>
                                         <ul class="nav">
-                                          <li><a href="index.html">Home</a>
-												 <ul>
-													 <li><a href="index.html" title=""> home 1</a></li>
-													  <li><a href="index_2.html" title=""> home 2 (Minimal)</a></li>
-													  <li><a href="index_3.html" title=""> home 3</a></li>
-													  <li><a href="index_4.html" title=""> home 4</a></li>
-													  <li><a href="index_5.html" title=""> home 5 (Box)</a></li>
-													  <li><a href="index_6.html" title=""> home 6</a></li>
-                                                      <li><a href="index_7.html" title=""> home 7</a></li>
-                                                      <li><a href="index_8.html" title=""> home 8 (One Page)</a></li>
-												 </ul>
-                                                </li>
-                                                <li><a href="about_us.html">about us</a>
-                                                </li>
-                                                <li><a href="services.html">services</a>
-                                                </li>
-                                                <li><a href="project_2.html">projects</a>
-												 <ul>
-													<li><a href="project_2.html" title=""> project 2</a></li>
-													<li><a href="project_3.html" title=""> project 3</a></li>
-													<li><a href="project_4.html" title=""> project 4</a></li>
-													<li><a href="project_fullwidth.html" title="">project fullwidth</a></li>
-													<li><a href="project_single.html" title=""> project single</a></li>
+                                            <li><a href="index.html">Home</a>
+                                                <ul>
+                                                    <li><a href="index.html" title=""> home 1</a></li>
+                                                    <li><a href="index_2.html" title=""> home 2 (Minimal)</a></li>
+                                                    <li><a href="index_3.html" title=""> home 3</a></li>
+                                                    <li><a href="index_4.html" title=""> home 4</a></li>
+                                                    <li><a href="index_5.html" title=""> home 5 (Box)</a></li>
+                                                    <li><a href="index_6.html" title=""> home 6</a></li>
+                                                    <li><a href="index_7.html" title=""> home 7</a></li>
+                                                    <li><a href="index_8.html" title=""> home 8 (One Page)</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="about_us.html">about us</a>
+                                            </li>
+                                            <li><a href="services.html">services</a>
+                                            </li>
+                                            <li><a href="project_2.html">projects</a>
+                                                <ul>
+                                                    <li><a href="project_2.html" title=""> project 2</a></li>
+                                                    <li><a href="project_3.html" title=""> project 3</a></li>
+                                                    <li><a href="project_4.html" title=""> project 4</a></li>
+                                                    <li><a href="project_fullwidth.html" title="">project fullwidth</a>
+                                                    </li>
+                                                    <li><a href="project_single.html" title=""> project single</a></li>
 
-												</ul>
-                                                </li>
-                                                <li><a href="team.html">team</a>
-                                                    <ul>
-														<li><a href="team.html" title=""> team</a></li>
-														<li><a href="team_details.html" title="">team details</a></li>
-													</ul>
-                                                </li>
-                                                <li><a href="blog_single.html" title="">blog</a>
-                                                     <ul>
-														<li><a href="blog_categories.html" title=""> blog categories</a></li>
-														<li><a href="blog_category.html" title=""> blog category</a></li>
-														<li><a href="blog_single.html" title=""> blog single</a></li>
-													</ul>
-                                                </li>
-                                               <li><a href="shop_sidebar.html" title="">shop</a>
-                                                   <ul>
-														<li><a href="shop_sidebar.html" title="">shop sidebar</a></li>
-														<li><a href="shop_fullwidth.html" title=""> shop fullwidth</a></li>
-														<li><a href="shop_single.html" title=""> shop single</a></li>
-                                                        <li><a href="cart.html" title=""> cart</a></li>
-														<li><a href="checkout.html" title=""> checkout</a></li>
-													</ul>
-                                                </li>
-                                             <li><a href="contact_us.html"> contact us</a>
-												 <ul>
-													  <li><a href="contact_us.html" title="">contact us</a></li>
-													  <li><a href="error.html" title=""> 404 error</a></li>
-												</ul>
-                                                </li>
-                                                <li><a href="login.html">Login</a></li>
-                                                <li><a href="register.html">Register</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="team.html">team</a>
+                                                <ul>
+                                                    <li><a href="team.html" title=""> team</a></li>
+                                                    <li><a href="team_details.html" title="">team details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="blog_single.html" title="">blog</a>
+                                                <ul>
+                                                    <li><a href="blog_categories.html" title=""> blog categories</a>
+                                                    </li>
+                                                    <li><a href="blog_category.html" title=""> blog category</a></li>
+                                                    <li><a href="blog_single.html" title=""> blog single</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="shop_sidebar.html" title="">shop</a>
+                                                <ul>
+                                                    <li><a href="shop_sidebar.html" title="">shop sidebar</a></li>
+                                                    <li><a href="shop_fullwidth.html" title=""> shop fullwidth</a></li>
+                                                    <li><a href="shop_single.html" title=""> shop single</a></li>
+                                                    <li><a href="cart.html" title=""> cart</a></li>
+                                                    <li><a href="checkout.html" title=""> checkout</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact_us.html"> contact us</a>
+                                                <ul>
+                                                    <li><a href="contact_us.html" title="">contact us</a></li>
+                                                    <li><a href="error.html" title=""> 404 error</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="login.html">Login</a></li>
+                                            <li><a href="register.html">Register</a></li>
                                             <li class="caret_btn">
-                                                <a href="javascript:;"><i class="fa fa-shopping-basket"></i><span>2</span></a>
+                                                <a href="javascript:;"><i
+                                                        class="fa fa-shopping-basket"></i><span>2</span></a>
                                                 <ul>
                                                     <li>
                                                         <div class="cc_cart_wrapper1 menu-button">
@@ -309,7 +344,8 @@ Author:   Webstrot
                                                         </div>
                                                         <div class="cart_checkout_btn">
 
-                                                            <a href="checkout.html" class="waves-effect waves-light waves-ripple">checkout</a>
+                                                            <a href="checkout.html"
+                                                                class="waves-effect waves-light waves-ripple">checkout</a>
 
                                                         </div>
                                                     </li>
@@ -351,7 +387,7 @@ Author:   Webstrot
                         <div class="sub_title_section">
                             <ul class="sub_title">
                                 <li><a href="javascript:;"> Home </a></li>
-                                <li>blog categories</li>
+                                <li>Noticias</li>
                             </ul>
                         </div>
                     </div>
@@ -361,557 +397,457 @@ Author:   Webstrot
     </div>
     <!-- page_title_section end -->
     <div class="sw_blog_categories_2_wrapper">
-
         <div class="container">
             <div class="row">
-
-                <div class="blog_categories_box_1">
+                <div class="col-lg-12">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="box_1_heading">
                             <p>news,may 2022</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5 ">
                         <div class="btc_blog_indx_box_wrapper btc_blog_padder">
-                            <div class="hs_blog_box1_img_wrapper sw_blog_cate_slider">
-                                <div class="owl-carousel owl-theme">
-                                    <div class="item">
-                                        <img src="images/news_2.jpg" alt="blog_img">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/news_1.jpg" alt="blog_img">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/news_3.jpg" alt="blog_img">
-                                    </div>
-
-                                </div>
-
+                            <div class="blog-image-wrapper">
+                                <a
+                                    href="blog_single/guarda-el-sol-para-despues-el-imprescindible-rol-del-almacenamiento-en-la-energia-solar.html">
+                                    <img src="images/1.jpg" alt="blog_img" class="blog-image">
+                                </a>
                             </div>
-
-                            <div class="btc_blog_indx_cont_wrapper">
-                                <p>june 16,2022</p>
-                                <h5>Electricity is on track for what
-about decarbonising heat?</h5>
-
-                            </div>
-                            <div class="btc_blog_indx_cont_bottom">
-                                <div class="btc_blog_indx_cont_bottom_left">
-                                    <p><i class="fa fa-user"></i> &nbsp;<a href="javascript:;">by Akshay</a></p>
-                                </div>
-                                <div class="btc_blog_indx_cont_bottom_right">
-                                    <p><i class="fa fa-comments-o"></i> &nbsp;<a href="javascript:;">04 Comm.</a></p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-
-                        <div class="btc_blog_indx_box_wrapper  btc_blog_indx_box_wrapper_2 btc_blog_padder">
-                            <div class="btc_blog_indx_img_wrapper">
-                                <img src="images/news_2.jpg" alt="blog_img">
-                                <div class="btc_blog_indx_date_wrapper">
-                                    <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="btc_blog_indx_cont_wrapper">
-                                <p>june 16,2022</p>
-                                <h5>Electricity is on track for what
-about decarbonising heat?</h5>
-
-                            </div>
-                            <div class="btc_blog_indx_cont_bottom">
-                                <div class="btc_blog_indx_cont_bottom_left">
-                                    <p><i class="fa fa-user"></i> &nbsp;<a href="javascript:;">by Akshay</a></p>
-                                </div>
-                                <div class="btc_blog_indx_cont_bottom_right">
-                                    <p><i class="fa fa-comments-o"></i> &nbsp;<a href="javascript:;">04 Comm.</a></p>
-                                </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">Guarda el sol para después: El imprescindible rol del
+                                    almacenamiento en la
+                                    energía
+                                    solar</h5>
+                                <span>Con las baterías físicas y virtuales, tenemos las herramientas para..</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="lest_news_box_wrapper btc_blog_padder">
-                            <div class="btc_blog_indx_box_wrapper btc_blog_indx_box_wrapper_2">
-                                <div class="lest_news_img_wrapper">
-                                    <div class="blog_cate_text_box">
-                                        <p>“ This is Photoshop's ion of Lorem sum. Proin gravida nibh vel velit auor uet. Aenean sollicitudin, lorem quis ndum auctor, nisi elit consequat ipsum, nc
-                                            <br>sagittis sem nibh id elit.”</p>
 
-                                    </div>
-                                    <div class="btc_blog_indx_date_wrapper inr_blog_btn">
-                                        <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                                <div class="btc_blog_indx_cont_wrapper">
-                                    <p>june 16,2022</p>
-                                    <h5>Electricity is on track for what
-about decarbonising heat?</h5>
-
-                                </div>
-                                <div class="btc_blog_indx_cont_bottom">
-                                    <div class="btc_blog_indx_cont_bottom_left">
-                                        <p><i class="fa fa-user"></i> &nbsp;<a href="javascript:;">by Akshay</a></p>
-                                    </div>
-                                    <div class="btc_blog_indx_cont_bottom_right">
-                                        <p><i class="fa fa-comments-o"></i> &nbsp;<a href="javascript:;">04 Comm.</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
                         <div class="btc_blog_indx_box_wrapper btc_blog_padder">
-                            <div class="btc_blog_indx_img_wrapper">
-                                <img src="images/news_1.jpg" alt="blog_img">
-                                <div class="btc_blog_indx_date_wrapper">
-                                    <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
-                                </div>
+                            <div class="blog-image-wrapper">
+                                <a
+                                    href="blog_single/kostal-la-eleccion-inteligente-para-tu-sistema-de-energia-solar.html">
+                                    <img src="images/2.jpg" alt="blog_img" class="blog-image">
                             </div>
-                            <div class="btc_blog_indx_cont_wrapper">
-                                <p>june 16,2022</p>
-                                <h5>Electricity is on track for what
-about decarbonising heat?</h5>
-
-                            </div>
-                            <div class="btc_blog_indx_cont_bottom">
-                                <div class="btc_blog_indx_cont_bottom_left">
-                                    <p><i class="fa fa-user"></i> &nbsp;<a href="javascript:;">by Akshay</a></p>
-                                </div>
-                                <div class="btc_blog_indx_cont_bottom_right">
-                                    <p><i class="fa fa-comments-o"></i> &nbsp;<a href="javascript:;">04 Comm.</a></p>
-                                </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">Kostal: La elección inteligente para tu sistema de energía
+                                    solar</h5>
+                                <span>Los inversores de Kostal, una marca que se ha distinguido...</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="lest_news_box_wrapper btc_blog_padder">
-                            <div class="btc_blog_indx_box_wrapper btc_blog_indx_box_wrapper_2">
-
-                                <div class="lest_news_img_wrapper">
-                                    <div class="video_wrapper">
-                                        <img src="images/img_11.jpg" alt="blog_img1" />
-                                        <a href="https://www.youtube.com/watch?v=3Fnf8ofDqq4" class="play-trigger"><span><i class="fa fa-play"></i></span></a>
-                                    </div>
-
-                                </div>
-
-                                <div class="btc_blog_indx_cont_wrapper">
-                                    <p>june 16,2022</p>
-                                    <h5>Electricity is on track for what
-about decarbonising heat?</h5>
-
-                                </div>
-                                <div class="btc_blog_indx_cont_bottom">
-                                    <div class="btc_blog_indx_cont_bottom_left">
-                                        <p><i class="fa fa-user"></i> &nbsp;<a href="javascript:;">by Akshay</a></p>
-                                    </div>
-                                    <div class="btc_blog_indx_cont_bottom_right">
-                                        <p><i class="fa fa-comments-o"></i> &nbsp;<a href="javascript:;">04 Comm.</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
                         <div class="btc_blog_indx_box_wrapper btc_blog_padder">
-                            <div class="btc_blog_indx_img_wrapper">
-                                <img src="images/news_2.jpg" alt="blog_img">
-                                <div class="btc_blog_indx_date_wrapper">
-                                    <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
-                                </div>
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/inversores-solares-el-corazon-de-tu-sistema-fotovoltaico.html">
+                                    <img src="images/3.jpg" alt="blog_img" class="blog-image">
+                                </a>
                             </div>
-                            <div class="btc_blog_indx_cont_wrapper">
-                                <p>june 16,2022</p>
-                                <h5>Electricity is on track for what
-about decarbonising heat?</h5>
-
-                            </div>
-                            <div class="btc_blog_indx_cont_bottom">
-                                <div class="btc_blog_indx_cont_bottom_left">
-                                    <p><i class="fa fa-user"></i> &nbsp;<a href="javascript:;">by Akshay</a></p>
-                                </div>
-                                <div class="btc_blog_indx_cont_bottom_right">
-                                    <p><i class="fa fa-comments-o"></i> &nbsp;<a href="javascript:;">04 Comm.</a></p>
-                                </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">Inversores Solares: el corazón de tu sistema fotovoltaico</h5>
+                                <span>Elegir el inversor solar adecuado puede ser una tarea complicada,...</span>
                             </div>
                         </div>
                     </div>
-
                 </div>
-
-                <div class="blog_categories_box_1">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="box_1_heading">
-                            <p>news,june 2022</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-
-                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
-                            <div class="btc_blog_indx_img_wrapper">
-                                <img src="images/news_1.jpg" alt="blog_img">
-                                <div class="btc_blog_indx_date_wrapper">
-                                    <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="btc_blog_indx_cont_wrapper">
-                                <p>june 16,2022</p>
-                                <h5>Electricity is on track for what
-about decarbonising heat?</h5>
-
-                            </div>
-                            <div class="btc_blog_indx_cont_bottom">
-                                <div class="btc_blog_indx_cont_bottom_left">
-                                    <p><i class="fa fa-user"></i> &nbsp;<a href="javascript:;">by Akshay</a></p>
-                                </div>
-                                <div class="btc_blog_indx_cont_bottom_right">
-                                    <p><i class="fa fa-comments-o"></i> &nbsp;<a href="javascript:;">04 Comm.</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-
-                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
-                            <div class="hs_blog_box1_img_wrapper sw_blog_cate_slider">
-                                <div class="owl-carousel owl-theme">
-                                    <div class="item">
-                                        <img src="images/news_2.jpg" alt="blog_img">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/news_1.jpg" alt="blog_img">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/news_3.jpg" alt="blog_img">
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="btc_blog_indx_cont_wrapper">
-                                <p>june 16,2022</p>
-                                <h5>Electricity is on track for what
-about decarbonising heat?</h5>
-
-                            </div>
-                            <div class="btc_blog_indx_cont_bottom">
-                                <div class="btc_blog_indx_cont_bottom_left">
-                                    <p><i class="fa fa-user"></i> &nbsp;<a href="javascript:;">by Akshay</a></p>
-                                </div>
-                                <div class="btc_blog_indx_cont_bottom_right">
-                                    <p><i class="fa fa-comments-o"></i> &nbsp;<a href="javascript:;">04 Comm.</a></p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="lest_news_box_wrapper btc_blog_padder">
-                            <div class="btc_blog_indx_box_wrapper btc_blog_indx_box_wrapper_2">
-                                <div class="lest_news_img_wrapper">
-                                    <div class="blog_cate_text_box">
-                                        <p>“ This is Photoshop's ion of Lorem sum. Proin gravida nibh vel velit auor uet. Aenean sollicitudin, lorem quis ndum auctor, nisi elit consequat ipsum, nc
-                                            <br>sagittis sem nibh id elit.”</p>
-
-                                    </div>
-                                    <div class="btc_blog_indx_date_wrapper inr_blog_btn">
-                                        <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                                <div class="btc_blog_indx_cont_wrapper">
-                                    <p>june 16,2022</p>
-                                    <h5>Electricity is on track for what
-about decarbonising heat?</h5>
-
-                                </div>
-                                <div class="btc_blog_indx_cont_bottom">
-                                    <div class="btc_blog_indx_cont_bottom_left">
-                                        <p><i class="fa fa-user"></i> &nbsp;<a href="javascript:;">by Akshay</a></p>
-                                    </div>
-                                    <div class="btc_blog_indx_cont_bottom_right">
-                                        <p><i class="fa fa-comments-o"></i> &nbsp;<a href="javascript:;">04 Comm.</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="lest_news_box_wrapper btc_blog_padder">
-                            <div class="btc_blog_indx_box_wrapper btc_blog_indx_box_wrapper_2">
-
-                                <div class="lest_news_img_wrapper">
-                                    <div class="video_wrapper">
-                                        <img src="images/img_11.jpg" alt="blog_img1" />
-                                        <a href="https://www.youtube.com/watch?v=3Fnf8ofDqq4" class="play-trigger"><span><i class="fa fa-play"></i></span></a>
-                                    </div>
-
-                                </div>
-
-                                <div class="btc_blog_indx_cont_wrapper">
-                                    <p>june 16,2022</p>
-                                    <h5>Electricity is on track for what
-about decarbonising heat?</h5>
-
-                                </div>
-                                <div class="btc_blog_indx_cont_bottom">
-                                    <div class="btc_blog_indx_cont_bottom_left">
-                                        <p><i class="fa fa-user"></i> &nbsp;<a href="javascript:;">by Akshay</a></p>
-                                    </div>
-                                    <div class="btc_blog_indx_cont_bottom_right">
-                                        <p><i class="fa fa-comments-o"></i> &nbsp;<a href="javascript:;">04 Comm.</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-
-                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
-                            <div class="btc_blog_indx_img_wrapper">
-                                <img src="images/news_1.jpg" alt="blog_img">
-                                <div class="btc_blog_indx_date_wrapper">
-                                    <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="btc_blog_indx_cont_wrapper">
-                                <p>june 16,2022</p>
-                                <h5>Electricity is on track for what
-about decarbonising heat?</h5>
-
-                            </div>
-                            <div class="btc_blog_indx_cont_bottom">
-                                <div class="btc_blog_indx_cont_bottom_left">
-                                    <p><i class="fa fa-user"></i> &nbsp;<a href="javascript:;">by Akshay</a></p>
-                                </div>
-                                <div class="btc_blog_indx_cont_bottom_right">
-                                    <p><i class="fa fa-comments-o"></i> &nbsp;<a href="javascript:;">04 Comm.</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-
-                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
-                            <div class="btc_blog_indx_img_wrapper">
-                                <img src="images/news_2.jpg" alt="blog_img">
-                                <div class="btc_blog_indx_date_wrapper">
-                                    <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="btc_blog_indx_cont_wrapper">
-                                <p>june 16,2022</p>
-                                <h5>Electricity is on track for what
-about decarbonising heat?</h5>
-
-                            </div>
-                            <div class="btc_blog_indx_cont_bottom">
-                                <div class="btc_blog_indx_cont_bottom_left">
-                                    <p><i class="fa fa-user"></i> &nbsp;<a href="javascript:;">by Akshay</a></p>
-                                </div>
-                                <div class="btc_blog_indx_cont_bottom_right">
-                                    <p><i class="fa fa-comments-o"></i> &nbsp;<a href="javascript:;">04 Comm.</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="blog_categories_box_1">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="box_1_heading">
-                            <p>news,july 2022</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-
-                        <div class="btc_blog_indx_box_wrapper btc_blog_indx_box_wrapper_2 btc_blog_padder">
-                            <div class="hs_blog_box1_img_wrapper sw_blog_cate_slider">
-                                <div class="owl-carousel owl-theme">
-                                    <div class="item">
-                                        <img src="images/news_2.jpg" alt="blog_img">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/news_1.jpg" alt="blog_img">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/news_3.jpg" alt="blog_img">
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="btc_blog_indx_cont_wrapper">
-                                <p>june 16,2022</p>
-                                <h5>Electricity is on track for what
-about decarbonising heat?</h5>
-
-                            </div>
-                            <div class="btc_blog_indx_cont_bottom">
-                                <div class="btc_blog_indx_cont_bottom_left">
-                                    <p><i class="fa fa-user"></i> &nbsp;<a href="javascript:;">by Akshay</a></p>
-                                </div>
-                                <div class="btc_blog_indx_cont_bottom_right">
-                                    <p><i class="fa fa-comments-o"></i> &nbsp;<a href="javascript:;">04 Comm.</a></p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-
-                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
-                            <div class="btc_blog_indx_img_wrapper">
-                                <img src="images/news_2.jpg" alt="blog_img">
-                                <div class="btc_blog_indx_date_wrapper">
-                                    <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="btc_blog_indx_cont_wrapper">
-                                <p>june 16,2022</p>
-                                <h5>Electricity is on track for what
-about decarbonising heat?</h5>
-
-                            </div>
-                            <div class="btc_blog_indx_cont_bottom">
-                                <div class="btc_blog_indx_cont_bottom_left">
-                                    <p><i class="fa fa-user"></i> &nbsp;<a href="javascript:;">by Akshay</a></p>
-                                </div>
-                                <div class="btc_blog_indx_cont_bottom_right">
-                                    <p><i class="fa fa-comments-o"></i> &nbsp;<a href="javascript:;">04 Comm.</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="lest_news_box_wrapper btc_blog_padder">
-                            <div class="btc_blog_indx_box_wrapper btc_blog_indx_box_wrapper_2">
-                                <div class="lest_news_img_wrapper">
-                                    <div class="blog_cate_text_box">
-                                        <p>“ This is Photoshop's ion of Lorem sum. Proin gravida nibh vel velit auor uet. Aenean sollicitudin, lorem quis ndum auctor, nisi elit consequat ipsum, nc
-                                            <br>sagittis sem nibh id elit.”</p>
-
-                                    </div>
-                                    <div class="btc_blog_indx_date_wrapper inr_blog_btn">
-                                        <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                                <div class="btc_blog_indx_cont_wrapper">
-                                    <p>june 16,2022</p>
-                                    <h5>Electricity is on track for what
-about decarbonising heat?</h5>
-
-                                </div>
-                                <div class="btc_blog_indx_cont_bottom">
-                                    <div class="btc_blog_indx_cont_bottom_left">
-                                        <p><i class="fa fa-user"></i> &nbsp;<a href="javascript:;">by Akshay</a></p>
-                                    </div>
-                                    <div class="btc_blog_indx_cont_bottom_right">
-                                        <p><i class="fa fa-comments-o"></i> &nbsp;<a href="javascript:;">04 Comm.</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-
-                        <div class="btc_blog_indx_box_wrapper  btc_blog_indx_box_wrapper_2 btc_blog_padder">
-                            <div class="btc_blog_indx_img_wrapper">
-                                <img src="images/news_1.jpg" alt="blog_img">
-                                <div class="btc_blog_indx_date_wrapper">
-                                    <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="btc_blog_indx_cont_wrapper">
-                                <p>june 16,2022</p>
-                                <h5>Electricity is on track for what
-about decarbonising heat?</h5>
-
-                            </div>
-                            <div class="btc_blog_indx_cont_bottom">
-                                <div class="btc_blog_indx_cont_bottom_left">
-                                    <p><i class="fa fa-user"></i> &nbsp;<a href="javascript:;">by Akshay</a></p>
-                                </div>
-                                <div class="btc_blog_indx_cont_bottom_right">
-                                    <p><i class="fa fa-comments-o"></i> &nbsp;<a href="javascript:;">04 Comm.</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="lest_news_box_wrapper btc_blog_padder">
-                            <div class="btc_blog_indx_box_wrapper btc_blog_indx_box_wrapper_2">
-
-                                <div class="lest_news_img_wrapper">
-                                    <div class="video_wrapper">
-                                        <img src="images/img_11.jpg" alt="blog_img1" />
-                                        <a href="https://www.youtube.com/watch?v=3Fnf8ofDqq4" class="play-trigger"><span><i class="fa fa-play"></i></span></a>
-                                    </div>
-
-                                </div>
-
-                                <div class="btc_blog_indx_cont_wrapper">
-                                    <p>june 16,2022</p>
-                                    <h5>Electricity is on track for what
-about decarbonising heat?</h5>
-
-                                </div>
-                                <div class="btc_blog_indx_cont_bottom">
-                                    <div class="btc_blog_indx_cont_bottom_left">
-                                        <p><i class="fa fa-user"></i> &nbsp;<a href="javascript:;">by Akshay</a></p>
-                                    </div>
-                                    <div class="btc_blog_indx_cont_bottom_right">
-                                        <p><i class="fa fa-comments-o"></i> &nbsp;<a href="javascript:;">04 Comm.</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-
-                        <div class="btc_blog_indx_box_wrapper btc_blog_indx_box_wrapper_2 btc_blog_padder">
-                            <div class="btc_blog_indx_img_wrapper">
-                                <img src="images/news_2.jpg" alt="blog_img">
-                                <div class="btc_blog_indx_date_wrapper">
-                                    <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="btc_blog_indx_cont_wrapper">
-                                <p>june 16,2022</p>
-                                <h5>Electricity is on track for what
-about decarbonising heat?</h5>
-
-                            </div>
-                            <div class="btc_blog_indx_cont_bottom">
-                                <div class="btc_blog_indx_cont_bottom_left">
-                                    <p><i class="fa fa-user"></i> &nbsp;<a href="javascript:;">by Akshay</a></p>
-                                </div>
-                                <div class="btc_blog_indx_cont_bottom_right">
-                                    <p><i class="fa fa-comments-o"></i> &nbsp;<a href="javascript:;">04 Comm.</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
             </div>
+
+            <div class="row" style="margin-top:50px">
+                <div class="col-lg-12">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/maximiza-tu-inversion-en-energia-solar-la-importancia-de-la-monitorizacion-activa-en-los-sistemas-fotovoltaicos.html">
+                                    <img src="images/4.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">Maximiza tu inversión en energía solar: la importancia de la
+                                    monitorización activa en los sistemas fotovoltaicos</h5>
+                                <span>La monitorización de tu sistema fotovoltaico es una herramienta esencial...
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/servicio-postventa-y-asistencia-tecnica-de-ontec-energy-tu-seguridad-y-satisfaccion-son-nuestra-prioridad.html">
+                                    <img src="images/5.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">Servicio Postventa y Asistencia Técnica de Ontec Energy: tu
+                                    seguridad y satisfacción son nuestra prioridad</h5>
+                                <span>Nuestro compromiso con la excelencia y la cercanía nos hace.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/energia-solar-para-la-industria-ahorra-costos-mejora-tu-imagen-y-combate-el-cambio-climatico.html">
+                                    <img src="images/6.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">Energía solar para la industria: ahorra costos, mejora tu
+                                    imagen y combate el cambio climático</h5>
+                                <span>En Ontec Energy, estamos comprometidos con ayudar a las industrias... </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row" style="margin-top:50px">
+                <div class="col-lg-12">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/protege-tu-inversion-solar-con-la-garantia-de-kwh-de-autarco.html">
+                                    <img src="images/7.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">Protege tu inversión solar con la Garantía de kWh de Autarco
+                                </h5>
+                                <span>Garantía de kWh: qué genial saber que tu sistema producirá...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/energia-solar-para-tu-hogar-ahorra-dinero-y-construye-un-futuro-sostenible.html">
+                                    <img src="images/8.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">Energía solar para tu hogar: Ahorra dinero y construye un
+                                    futuro sostenible</h5>
+                                <span>La energía solar no es una moda pasajera. Según los... </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/tu-solucion-para-la-carga-eficiente-de-vehiculos-electricos-con-wallbox-pulsar-plus.html">
+                                    <img src="images/9.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">Tu solución para la carga eficiente de vehículos eléctricos
+                                    con Wallbox Pulsar Plus</h5>
+                                <span>Este dispositivo es ideal para el uso diario en el...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row" style="margin-top:50px">
+                <div class="col-lg-12">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/transformando-la-energia-solar-con-el-gemelo-digital-el-poder-de-la-tecnologia-autarco.html">
+                                    <img src="images/10.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">Transformando la energía solar con el Gemelo Digital, el
+                                    poder
+                                    de la tecnología Autarco</h5>
+                                <span>En el campo de la energía solar, estos modelos digitales...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/industria-por-que-invertir-en-energia-solar.html">
+                                    <img src="images/11.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">Industria ¿Por qué invertir en energía solar?</h5>
+                                <span>La instalación de paneles solares es una inversión inteligente con...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/guia-simple-sobre-paneles-solares-y-baterias-virtuales.html">
+                                    <img src="images/12.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">Guía simple sobre paneles solares y baterías virtuales
+                                </h5>
+                                <span>En este blog, te explicaremos de manera simple el funcionamiento
+                                    de...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row" style="margin-top:50px">
+                <div class="col-lg-12">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/movilidad-sostenible-para-empresas-como-contribuir-al-cuidado-del-medio-ambiente.html">
+                                    <img src="images/13.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">Movilidad sostenible para empresas: cómo contribuir al
+                                    cuidado
+                                    del medio ambiente</h5>
+                                <span>Los vehículos eléctricos cargados con paneles solares son una de...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/servicio-de-asistencia-tecnica-de-ontec-energy.html">
+                                    <img src="images/14.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">SERVICIO DE ASISTENCIA TÉCNICA DE ONTEC ENERGY</h5>
+                                <span>Tu tranquilidad ante todo Los paneles solares son una de...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/la-energia-solar-como-solucion-sostenible-para-la-industria.html">
+                                    <img src="images/15.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">LA ENERGÍA SOLAR COMO SOLUCIÓN SOSTENIBLE PARA LA
+                                    INDUSTRIA
+                                </h5>
+                                <span>La energía generada con paneles fotovoltaicos tiene múltiples ventajas
+                                    para
+                                    el...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row" style="margin-top:50px">
+                <div class="col-lg-12">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/aumenta-la-instalacion-de-paneles-solares-en-espana.html">
+                                    <img src="images/16.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">AUMENTA LA INSTALACIÓN DE PANELES SOLARES EN ESPAÑA
+                                </h5>
+                                <span>En 2022 el consumo de energía solar creció un 108%...
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/carga-bidireccional-en-vehiculos-electricos.html">
+                                    <img src="images/17.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">CARGA BIDIRECCIONAL EN VEHÍCULOS ELÉCTRICOS</h5>
+                                <span>El coche se convierte en una batería de almacenamiento</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/baterias-de-almacenamiento-energetico.html">
+                                    <img src="images/18.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">BATERÍAS DE ALMACENAMIENTO ENERGÉTICO</h5>
+                                <span>Cómo las baterías de almacenamiento energético están revolucionando el
+                                    sector...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top:50px;">
+                <div class="col-lg-12">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/fundacio-el-maresme.html">
+                                    <img src="images/19.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">FUNDACIÓ EL MARESME</h5>
+                                <span>La Fundació trabaja diariamente con el objetivo de fomentar la...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/la-ley-de-transicion-energetica.html">
+                                    <img src="images/20.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">LA LEY DE TRANSICIÓN ENERGÉTICA</h5>
+                                <span>La idea de la transición energética es virar hacia un...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/ontec-energy-en-la-maresma.html">
+                                    <img src="images/21.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">Ontec Energy en «La Maresma»</h5>
+                                <span>La feria de Alella es el lugar perfecto para mostrar...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top:50px;">
+                <div class="col-lg-12">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/2023-el-momento-de-las-renovables.html">
+                                    <img src="images/22.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">2023, EL MOMENTO DE LAS RENOVABLES</h5>
+                                <span>Por primera vez la energía solar se pone por delante...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/genera-2023.html">
+                                    <img src="images/23.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">GENERA 2023</h5>
+                                <span>El punto de encuentro de expertos en energías renovables Del...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/proyecto-energias-renovables.html">
+                                    <img src="images/24.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">PROYECTO ENERGÍAS RENOVABLES</h5>
+                                <span>La Diputación de Barcelona ha puesto en marcha el proyecto... </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row" style="margin-top:50px;margin-bottom:50px;">
+                <div class="col-lg-12">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/que-es-un-gemelo-digital.html">
+                                    <img src="images/25.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">¿Qué es un gemelo digital?</h5>
+                                <span>Uno de los valores añadidos más importantes en la
+                                    implantación...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="blog-image-wrapper">
+                                <a href="blog_single/sistema-fotovoltaico-para-la-empresa-ime.html">
+                                    <img src="images/26.jpg" alt="blog_img" class="blog-image">
+                                </a>
+                            </div>
+                            <div class="btc_blog_indx_cont_wrapper blog-image-wrapper2">
+                                <p>june 16, 2022</p>
+                                <h5 class="project-title">Sistema fotovoltaico para la empresa IME</h5>
+                                <span>Uno de nuestros proyectos de autoconsumo para empresa ha
+                                    sido...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -930,8 +866,10 @@ about decarbonising heat?</h5>
                             <input type="text" placeholder="Email*">
                             <button type="submit" class="waves-effect waves-light waves-ripple">Submit</button>
                         </div>
-                        <p>True environmental protection lies in loving the mountains, the oceans and in cher
-                            <br> all creation.</p>
+                        <p>True environmental protection lies in loving the mountains, the oceans and in
+                            cher
+                            <br> all creation.
+                        </p>
 
                     </div>
                 </div>
@@ -961,16 +899,27 @@ about decarbonising heat?</h5>
                         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
                             <div class="wrapper_second_about">
                                 <div class="wrapper_first_image">
-                                    <a href="index.html"><img src="images/hd_logo.png" class="img-responsive" alt="logo" /></a>
+                                    <a href="index.html"><img src="images/hd_logo.png" class="img-responsive"
+                                            alt="logo" /></a>
                                 </div>
                                 <div class="abotus_content">
-                                    <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis aks nostrud exercitation ullamco.</p>
+                                    <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                        labore
+                                        et
+                                        dolore magna aliqua. Ut enim ad minim veniam, quis aks nostrud
+                                        exercitation
+                                        ullamco.</p>
                                     <ul>
-                                        <li><a href="javascript:;"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="javascript:;"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="javascript:;"><i class="fa fa-youtube-play"></i></a></li>
-                                        <li><a href="javascript:;"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="javascript:;"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="javascript:;"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li><a href="javascript:;"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li><a href="javascript:;"><i class="fa fa-youtube-play"></i></a>
+                                        </li>
+                                        <li><a href="javascript:;"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                        <li><a href="javascript:;"><i class="fa fa-instagram"></i></a>
+                                        </li>
                                     </ul>
                                 </div>
 
@@ -982,15 +931,19 @@ about decarbonising heat?</h5>
                                 <h4>useful links </h4>
                                 <img src="images/hd_line_dark.png" alt="title" class="pd_btm_3">
                                 <ul>
-                                    <li><a href="javascript:;"><i class="fa fa-angle-right"></i>About us</a>
+                                    <li><a href="javascript:;"><i class="fa fa-angle-right"></i>About
+                                            us</a>
                                     </li>
-                                    <li><a href="javascript:;"><i class="fa fa-angle-right"></i>events </a>
+                                    <li><a href="javascript:;"><i class="fa fa-angle-right"></i>events
+                                        </a>
                                     </li>
-                                    <li><a href="javascript:;"><i class="fa fa-angle-right"></i>contact </a>
+                                    <li><a href="javascript:;"><i class="fa fa-angle-right"></i>contact
+                                        </a>
                                     </li>
                                     <li><a href="javascript:;"><i class="fa fa-angle-right"></i>history</a>
                                     </li>
-                                    <li><a href="javascript:;"><i class="fa fa-angle-right"></i>news</a> </li>
+                                    <li><a href="javascript:;"><i class="fa fa-angle-right"></i>news</a>
+                                    </li>
                                 </ul>
 
                             </div>
@@ -1003,11 +956,13 @@ about decarbonising heat?</h5>
                                     </li>
                                     <li><a href="javascript:;"><i class="fa fa-angle-right"></i>FAQ </a>
                                     </li>
-                                    <li><a href="javascript:;"><i class="fa fa-angle-right"></i>awards </a>
+                                    <li><a href="javascript:;"><i class="fa fa-angle-right"></i>awards
+                                        </a>
                                     </li>
                                     <li><a href="javascript:;"><i class="fa fa-angle-right"></i>tstimonials</a>
                                     </li>
-                                    <li><a href="javascript:;"><i class="fa fa-angle-right"></i>career</a> </li>
+                                    <li><a href="javascript:;"><i class="fa fa-angle-right"></i>career</a>
+                                    </li>
                                 </ul>
 
                             </div>
@@ -1015,18 +970,20 @@ about decarbonising heat?</h5>
 
                         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
                             <div class="wrapper_second_useful wrapper_second_useful_2">
-                                <h4>contact  us</h4>
+                                <h4>contact us</h4>
                                 <img src="images/hd_line_dark.png" alt="title" class="pd_btm_3">
                                 <ul>
-									<li>
-                                     <h1>+800 568 322</h1></li>
-									 <li><a href="javascript:;"><i class="flaticon-new-email-outline"></i>sunwind@example.com</a>
+                                    <li>
+                                        <h1>+800 568 322</h1>
                                     </li>
-									 <li><a href="javascript:;"><i class="flaticon-internet"></i>www.example.com</a>
+                                    <li><a href="javascript:;"><i
+                                                class="flaticon-new-email-outline"></i>sunwind@example.com</a>
                                     </li>
-                                  
+                                    <li><a href="javascript:;"><i class="flaticon-internet"></i>www.example.com</a>
+                                    </li>
+
                                     <li><i class="flaticon-placeholder"></i>Timposn, Suite 247 USA, 222
-                                    </li>                                   
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -1034,7 +991,11 @@ about decarbonising heat?</h5>
                 </div>
                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                     <div class="section3_copyright">
-                        <p>Copyright 2022-23 <a href="index.html"> sun & wind energy</a>. all right reserved - design by <a href="webstrot.com">webstrot. </a></p>
+                        <p>Copyright 2022-23 <a href="index.html"> sun & wind energy</a>. all right
+                            reserved -
+                            design by
+                            <a href="webstrot.com">webstrot. </a>
+                        </p>
                     </div>
                 </div>
             </div>
