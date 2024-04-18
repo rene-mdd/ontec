@@ -66,7 +66,7 @@
     }
 }
 
-@media (max-width: 1140px) {
+@media (max-width: 1200px) {
     .tc_login_btn .dropdown-menu li:last-child {
         visibility: visible;
     }
