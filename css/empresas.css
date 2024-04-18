@@ -1048,7 +1048,9 @@ nav ul li.active {
 	margin: 0;
 }
 .sw_leads_accordian .panel .panel-heading a {	
-	display: block;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
 	background: transparent;
 	padding-bottom:15px;
 	color: #1d3571;
@@ -1061,7 +1063,6 @@ nav ul li.active {
 .sw_leads_accordian .panel .panel-heading a.collapsed {
 	color: #1d3571;
 	background-color:transparent;
-	display: block;
 	padding-bottom:15px;
 	padding-top:8px;
 	border:0;
@@ -1116,6 +1117,10 @@ nav ul li.active {
 	color: #328fd1;
 	float:left;
 	font-size:34px;
+}
+.question-aligment {
+    display: flex;
+    flex-direction: row-reverse;
 }
 .sw_abt_right_btm_wrapper{
 	float:left;
