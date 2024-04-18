@@ -1023,6 +1023,9 @@ nav ul li.active {
 	padding-top:100px;
 	padding-bottom:100px;
 }
+.sw_leads_wrapper .container p {
+    font-size: 20px;
+}
 .sw_leads_index{
 	background:#e8f5ff;
 }
@@ -2054,10 +2057,14 @@ margin-top: 15px;
 .sw_discver_wrapper{
 	float: left;
     width: 100%;
-    background: #e8f5ff;
-    padding-top: 100px;
-    padding-bottom: 90px;
+    background: #328fd1;
+    /* padding-top: 100px;
+    padding-bottom: 90px; */
 } 
+.image-default {
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
 .sw_dicover_index{
 	background: #f6fbff;
 	  padding-top: 110px;
