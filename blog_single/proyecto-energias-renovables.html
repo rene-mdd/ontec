@@ -40,6 +40,11 @@ Author:   Webstrot
 </head>
 
 <style>
+    .lest_news_cont_wrapper_txt img {
+        display: block;
+        margin: 0 auto;
+    }
+
     .lest_news_box_wrapper h4 {
         color: #1d3571;
         font-weight: 500;
@@ -66,6 +71,18 @@ Author:   Webstrot
         border-top: 0;
         padding-bottom: 30px;
     }
+
+    .left_news_cont_wrapper {
+        overflow: hidden;
+        /* Esto es para contener los elementos hijos flotantes */
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 20px;
+        /* Espacio entre la imagen y el texto */
+    }
+
 </style>
 
 <body>
@@ -159,7 +176,7 @@ Author:   Webstrot
                                 </ul>
                             </li>
                             <li class="caret_btn">
-                                <a href="javascript;"><i class="fa fa-shopping-basket"></i><span>2</span></a>
+                                <a href="#"><i class="fa fa-shopping-basket"></i><span>2</span></a>
                                 <ul>
                                     <li>
                                         <div class="cc_cart_wrapper1 menu-button">
@@ -167,7 +184,7 @@ Author:   Webstrot
                                                 <img src="../images/cart_1.png" alt="cart_img" />
                                             </div>
                                             <div class="cc_cart_cont_wrapper">
-                                                <h4><a href="javascript;">put a title here</a></h4>
+                                                <h4><a href="#">put a title here</a></h4>
                                                 <p>1 <span> $145 </span> </p>
                                                 <h5><i class="fa fa-times"></i></h5>
                                             </div>
@@ -179,7 +196,7 @@ Author:   Webstrot
                                                 <img src="../images/cart_2.png" alt="cart_img" />
                                             </div>
                                             <div class="cc_cart_cont_wrapper">
-                                                <h4><a href="javascript;">put a title here</a></h4>
+                                                <h4><a href="#">put a title here</a></h4>
                                                 <p>1 <span> $145 </span></p>
                                                 <h5><i class="fa fa-times"></i></h5>
                                             </div>
@@ -191,7 +208,7 @@ Author:   Webstrot
                                                 <img src="../images/cart_3.png" alt="cart_img" />
                                             </div>
                                             <div class="cc_cart_cont_wrapper">
-                                                <h4><a href="javascript;">put a title here</a></h4>
+                                                <h4><a href="#">put a title here</a></h4>
                                                 <p>1 <span> $145 </span></p>
                                                 <h5><i class="fa fa-times"></i></h5>
                                             </div>
@@ -218,12 +235,12 @@ Author:   Webstrot
                             <div class="search-wrapper">
                                 <div class="et_navbar_search_wrapper hidden-xs">
                                     <div class="et_search_bar" id="search_button">
-                                        <a href="javascript;"><i class="fa fa-search waves-effect waves-light"
+                                        <a href="#"><i class="fa fa-search waves-effect waves-light"
                                                 aria-hidden="true"></i></a>
                                     </div>
                                     <div id="search_open" class="et_search_box">
                                         <input type="text" placeholder="Search text...">
-                                        <a href="javascript;"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -236,7 +253,7 @@ Author:   Webstrot
                                         <ul class="dropdown-menu tc_menu_fixed_border">
                                             <li class="dropdown_hover"><a href="../register.html">Register</a></li>
                                             <li class="dropdown_hover"><a href="../login.html">Login</a></li>
-                                            <li class="dropdown_hover hidden-lg"><a href="javascript;">Free Quote</a>
+                                            <li class="dropdown_hover hidden-lg"><a href="#">Free Quote</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -319,8 +336,7 @@ Author:   Webstrot
                                             <li><a href="../login.html">Login</a></li>
                                             <li><a href="../register.html">Register</a></li>
                                             <li class="caret_btn">
-                                                <a href="javascript;"><i
-                                                        class="fa fa-shopping-basket"></i><span>2</span></a>
+                                                <a href="#"><i class="fa fa-shopping-basket"></i><span>2</span></a>
                                                 <ul>
                                                     <li>
                                                         <div class="cc_cart_wrapper1 menu-button">
@@ -328,7 +344,7 @@ Author:   Webstrot
                                                                 <img src="../images/cart_1.png" alt="cart_img" />
                                                             </div>
                                                             <div class="cc_cart_cont_wrapper">
-                                                                <h4><a href="javascript;">put a title here</a></h4>
+                                                                <h4><a href="#">put a title here</a></h4>
                                                                 <p>1 <span> $145 </span> </p>
                                                                 <h5><i class="fa fa-times"></i></h5>
                                                             </div>
@@ -340,7 +356,7 @@ Author:   Webstrot
                                                                 <img src="../images/cart_2.png" alt="cart_img" />
                                                             </div>
                                                             <div class="cc_cart_cont_wrapper">
-                                                                <h4><a href="javascript;">put a title here</a></h4>
+                                                                <h4><a href="#">put a title here</a></h4>
                                                                 <p>1 <span> $145 </span></p>
                                                                 <h5><i class="fa fa-times"></i></h5>
                                                             </div>
@@ -352,7 +368,7 @@ Author:   Webstrot
                                                                 <img src="../images/cart_3.png" alt="cart_img" />
                                                             </div>
                                                             <div class="cc_cart_cont_wrapper">
-                                                                <h4><a href="javascript;">put a title here</a></h4>
+                                                                <h4><a href="#">put a title here</a></h4>
                                                                 <p>1 <span> $145 </span></p>
                                                                 <h5><i class="fa fa-times"></i></h5>
                                                             </div>
@@ -405,7 +421,7 @@ Author:   Webstrot
 
                         <div class="sub_title_section">
                             <ul class="sub_title">
-                                <li><a href="javascript;"> Home </a></li>
+                                <li><a href="#"> Home </a></li>
                                 <li>blog single post</li>
                             </ul>
                         </div>
@@ -470,24 +486,22 @@ Author:   Webstrot
                             </div>
                         </div>
                         <div class="lest_news_cont_wrapper">
-                            <div class="sc_blog_date">June 28, 2022</div>
-                            <h5><a href="javascript;">PROYECTO ENERGÍAS RENOVABLES.</a></h5>
+                            <div class="sc_blog_date">enero 16, 2023</div>
+                            <h5><a href="#">PROYECTO ENERGÍAS RENOVABLES.</a></h5>
                             <div class="lest_news_cont_bottom lest_news_cont_bottom_2">
                                 <div
                                     class="lest_news_cont_bottom_left lest_news_cont_bottom_left_2 sc_left_btm sc_left_btm_2 sc_btn">
-                                    <p><a href="javascript;"><i class="fa fa-user"></i>by akshay H.</a></p>
+                                    <p><a href="#"><i class="fa fa-user"></i>by Jordi.</a></p>
                                 </div>
                                 <div
                                     class="lest_news_cont_bottom_center lest_news_cont_bottom_center_2 sc_center_btm sc_btn">
-                                    <p><a href="javascript;"><i class="fa fa-eye"></i>264</a></p>
                                 </div>
                                 <div
                                     class="lest_news_cont_bottom_right lest_news_cont_bottom_right_2 sc_right_btm sc_btn">
-                                    <p><a href="javascript;"><i class="fa fa-comments-o"></i>05</a></p>
                                 </div>
                                 <div
                                     class="lest_news_cont_bottom_last lest_news_cont_bottom_last_2 sc_right_btm sc_btn">
-                                    <p><a href="javascript;"><i class="fa fa-clone"></i>Energy</a></p>
+                                    <p><a href="#"><i class="fa fa-clone"></i>SOSTENIBILIDAD</a></p>
                                 </div>
                             </div>
 
@@ -495,6 +509,9 @@ Author:   Webstrot
                             <!-- BODY -->
                             <div class="lest_news_cont_wrapper_txt">
                                 <h4>La Diputación de Barcelona impulsa el proyecto RENOVABLES 2030</h4>
+                                <img src="../images/reducir-emisiones-co2-ontec-proyecto-768x768.png" class="img-left"
+                                    alt="blog_img" />
+
                                 <p>La Diputación de Barcelona ha puesto en marcha el proyecto “RENOVABLES 2030”, que
                                     cuenta con un presupuesto de salida de 120 millones de euros, y con la intención de
                                     reducir las emisiones de CO2 hasta un total de 54 mil toneladas.</p>
@@ -504,6 +521,9 @@ Author:   Webstrot
                             </div>
                             <div class="lest_news_cont_wrapper_txt">
                                 <h4>¿De qué manera se llevará a cabo?</h4>
+                                <img src="../images/instalacion-energia-renovable-ontec-768x768.png" class="img-left"
+                                    alt="blog_img" />
+
                                 <p>El proyecto se articula en cuatro actuaciones de financiación, apostando por las
                                     energías renovables con la intención de abastecer los servicios de los municipios.
                                     Es decir, instalando placas fotovoltaicas para la producción de electricidad, y
@@ -516,6 +536,8 @@ Author:   Webstrot
                             </div>
                             <div class="lest_news_cont_wrapper_txt">
                                 <h4>¿Qué servicios va a proveer?</h4>
+                                <img src="../images/edificios-placas-solares-ontec-768x768.png" class="img-left"
+                                    alt="blog_img" />
                                 <p>El plan ya está en marcha y, de hecho, localidades como Caldes de Montbui o Sant
                                     Cugat del Vallès cuentan con paneles instalados en edificios públicos. Generan
                                     electricidad que abastece los servicios de alumbrado de calles e inmuebles,
@@ -527,6 +549,8 @@ Author:   Webstrot
                                     municipal, el cual nunca había dispuesto de ésta.</p>
                             </div>
                             <div class="lest_news_cont_wrapper_txt">
+                                <img src="../images/uso-energia-sobrante-ontec-768x768.png" class="img-left"
+                                    alt="blog_img" />
                                 <h4>¿Será realmente efectivo?</h4>
                                 <p>Cuando se llegue a la fecha límite del 2030, el ahorro de la factura va a rondar los
                                     35 millones de euros por año. Pero no solo se va a ahorrar dinero, ya que
@@ -539,6 +563,8 @@ Author:   Webstrot
                                     unos mínimos de confort energético necesarios para una vida digna.</p>
                             </div>
                             <div class="lest_news_cont_wrapper_txt">
+                                <img src="../images/proyecto-mollet-solar-ontec-768x768.png" class="img-left"
+                                    alt="blog_img" />
                                 <h4>¿Cuántas localidades abarca?</h4>
                                 <p>El total de las localidades catalanas que van a poder beneficiarse de la iniciativa
                                     es de 147, pero se espera que vayan creciendo en número y este solo sea el punto de
@@ -558,6 +584,8 @@ Author:   Webstrot
                                     que para los comercios sería del 10%.</p>
                             </div>
                             <div class="lest_news_cont_wrapper_txt">
+                                <img src="../images/implicacion-cambio-energias-renovables-ontec-768x768.png"
+                                    class="img-left" alt="blog_img" />
                                 <h4>Todos estamos implicados en el cambio</h4>
                                 <p>Para acabar quisiéramos destacar la importancia de la concienciación de todas las
                                     partes implicadas en la sociedad, empezando por los mandatarios, las empresas y la
