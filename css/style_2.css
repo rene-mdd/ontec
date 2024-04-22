@@ -7279,3 +7279,8 @@ nav ul li:nth-child(9) > ul {
 .login_main_wrapper.res_main_wrapper{
     height: 100%;
 }
+@media (min-width: 991px) {
+    .contact-menu .mean-bar {
+        top: -93px;
+    }
+}

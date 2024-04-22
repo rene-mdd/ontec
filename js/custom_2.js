@@ -25,7 +25,7 @@
   
 	//----------- jQuery MeanMenu / Multipage Mobile menu----------//
     $('.mobile-menu nav').meanmenu({
-        meanScreenWidth: "992",
+        meanScreenWidth: "2000",
         meanMenuContainer: ".mobile-menu"
     });
 	
