@@ -20,7 +20,7 @@ a.meanmenu-reveal {
 	padding: 4px 0;
 	min-height: 42px;
 	top: -65px;
-	z-index: 10;
+	z-index: -99;
 	display:inline-block;
 	right:0;
 	width:100%;
@@ -46,7 +46,7 @@ a.meanmenu-reveal {
 
 .mean-container a.meanmenu-reveal span {
 	display: block;
-	background: #1d3571 !important;
+	background: white;
 	height: 2px;
 	margin-top: 5px;
 }

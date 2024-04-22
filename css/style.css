@@ -282,7 +282,7 @@ textarea:focus {
 .stick .mainmenu ul li.has-mega>a:before,
 .stick .mainmenu ul li.has-mega>a:after,
 .stick .mean-container a.meanmenu-reveal span {
-    background-color: #222;
+    background-color: white;
 }
 
 /* mobail_menu_main */
@@ -3436,7 +3436,7 @@ nav ul li.active {
     .stick .mainmenu ul li.has-mega>a:before,
     .stick .mainmenu ul li.has-mega>a:after,
     .stick .mean-container a.meanmenu-reveal span {
-        background-color: #222;
+        background-color: white;
     }
 
     /*=============== Toggle Header  ===================*/
