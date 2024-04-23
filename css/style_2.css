@@ -4416,7 +4416,7 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, inp
 }
 .btc_blog_indx_cont_wrapper p{
 	color:#e87358;
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
     font-weight: 400;
 }
 .btc_blog_indx_cont_bottom{
@@ -7283,4 +7283,17 @@ nav ul li:nth-child(9) > ul {
     .contact-menu .mean-bar {
         top: -93px;
     }
+}
+.texto-noticias-internacionales {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.img-noticias {
+    object-fit: cover;
+    width: 100%;
+    height: 258px;
 }
