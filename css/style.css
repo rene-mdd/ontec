@@ -29,10 +29,27 @@ Author:   Webstrot
 19.footer_wrapper
 
 /*----------------body start------------------*/
-
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url("./fonts/poppins/Poppins-Black.ttf"),
+    url("./fonts/poppins/Poppins-Black.ttf"),
+    url("./fonts/poppins/Poppins-BlackItalic.ttf"),
+    url("./fonts/poppins/Poppins-Bold.ttf"),
+    url("./fonts/poppins/Poppins-BoldItalic.ttf"),
+    url("./fonts/poppins/Poppins-ExtraBold.ttf"),
+    url("./fonts/poppins/Poppins-ExtraBoldItalic.ttf"),
+    url("./fonts/poppins/Poppins-ExtraLight.ttf"),
+    url("./fonts/poppins/Poppins-ExtraLightItalic.ttf"),
+    url("./fonts/poppins/Poppins-Italic.ttf"),
+    url("./fonts/poppins/Poppins-Light.ttf"),
+    url("./fonts/poppins/Poppins-Medium.ttf"),
+    url("./fonts/poppins/Poppins-MediumItalic.ttf"),
+    url("./fonts/poppins/Poppins-SemiBold.ttf"),
+    url("./fonts/poppins/Poppins-Thin.ttf");
+}
 body,
 html {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
     line-height: 26px;
     font-weight: 300;
     font-size: 16px;
@@ -70,7 +87,6 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #1d3571;
     line-height: 26px;
@@ -625,7 +641,6 @@ nav ul li.active {
     float: left;
     color: white;
     background: #7dbc04;
-    font-family: 'Montserrat', sans-serif;
     text-align: center;
     line-height: 45px;
     font-size: 16px;
@@ -1172,7 +1187,6 @@ nav ul li.active {
     color: #1d3571;
     background: #fff;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
     line-height: 51px;
     font-size: 16px;
     border-radius: 45px;
@@ -1321,7 +1335,6 @@ nav ul li.active {
     font-weight: 600;
     font-size: 14px;
     cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
     background: transparent;
     border-radius: 50px;
@@ -2042,7 +2055,6 @@ nav ul li.active {
     font-size: 18px;
     font-weight: 500;
     border: 0;
-    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -2053,7 +2065,6 @@ nav ul li.active {
     padding-bottom: 15px;
     padding-top: 8px;
     border: 0;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .sw_leads_accordian .panel-default>.panel-heading {
@@ -2224,7 +2235,6 @@ nav ul li.active {
     font-size: 18px;
     margin-right: 5px;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
     top: -21px;
 }
 
@@ -2233,7 +2243,6 @@ nav ul li.active {
     font-size: 16px;
     margin-left: 3px;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .pricing_cont {
@@ -2371,7 +2380,6 @@ nav ul li.active {
     line-height: 50px;
     background: #fff;
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.06);
 }
 
@@ -2498,7 +2506,6 @@ nav ul li.active {
     font-size: 16px;
     font-weight: 600;
     border: 0;
-    font-family: 'Montserrat', sans-serif;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2767,7 +2774,6 @@ nav ul li.active {
     color: #1d3571;
     border: 0px;
     border-radius: 50px;
-    font-family: 'Montserrat', sans-serif;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -3189,7 +3195,7 @@ nav ul li.active {
         font-weight: bold;
         line-height: 2;
         font-size: 14px;
-        font-family: 'Montserrat', sans-serif;
+
         text-transform: capitalize;
         padding: 15px;
         padding-bottom: 0;
@@ -3589,7 +3595,6 @@ nav {
     height: 50px;
     float: left;
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
     background: #338fd1;
     text-align: center;
     line-height: 28px;
@@ -3643,4 +3648,9 @@ nav ul li:nth-child(9)>ul {
 
 .sobre-nosotros-img {
     margin-top: 50%;
+}
+.sw_chose_service_wrapper h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }

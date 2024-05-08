@@ -30,16 +30,35 @@ Author:   Webstrot
 
 /*----------------body start------------------*/
 
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url("./fonts/poppins/Poppins-Black.ttf"),
+    url("./fonts/poppins/Poppins-Black.ttf"),
+    url("./fonts/poppins/Poppins-BlackItalic.ttf"),
+    url("./fonts/poppins/Poppins-Bold.ttf"),
+    url("./fonts/poppins/Poppins-BoldItalic.ttf"),
+    url("./fonts/poppins/Poppins-ExtraBold.ttf"),
+    url("./fonts/poppins/Poppins-ExtraBoldItalic.ttf"),
+    url("./fonts/poppins/Poppins-ExtraLight.ttf"),
+    url("./fonts/poppins/Poppins-ExtraLightItalic.ttf"),
+    url("./fonts/poppins/Poppins-Italic.ttf"),
+    url("./fonts/poppins/Poppins-Light.ttf"),
+    url("./fonts/poppins/Poppins-Medium.ttf"),
+    url("./fonts/poppins/Poppins-MediumItalic.ttf"),
+    url("./fonts/poppins/Poppins-SemiBold.ttf"),
+    url("./fonts/poppins/Poppins-Thin.ttf");
+}
 body,
 html {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
     line-height: 26px;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     color: #6b84ad;
-	overflow-x:hidden;
-	background:#fff !important;
+    overflow-x: hidden;
+    background: #f6fbff !important;
 }
+
 
 
 /*------------------custom css----------------*/
@@ -68,7 +87,6 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #1d3571;
     line-height: 26px;
@@ -562,7 +580,6 @@ nav ul li.active {
     text-align: center;
     line-height: 45px;
     font-size: 16px;
-	font-family: 'Montserrat', sans-serif;
     border-radius: 50px;
     text-transform: capitalize;
     font-weight: 500;
@@ -1057,7 +1074,6 @@ nav ul li.active {
 	font-size:18px;
 	font-weight:500;
 	border:0;
-	font-family: 'Montserrat', sans-serif;
 	
 }
 .sw_leads_accordian .panel .panel-heading a.collapsed {
@@ -1066,7 +1082,6 @@ nav ul li.active {
 	padding-bottom:15px;
 	padding-top:8px;
 	border:0;
-	font-family: 'Montserrat', sans-serif;
 }
 .sw_leads_accordian .panel-default>.panel-heading {
   border-radius: 0px;
@@ -1543,6 +1558,7 @@ nav ul li.active {
 .chose_text_wrapper_left h4, .chose_text_wrapper_left p{
 	text-align:left;
 }
+
 .icon_content_right{
     color: #cdcecf;
 	float:left;
@@ -1643,7 +1659,6 @@ margin-top: 15px;
 	background-color:#328fd1;
 	color:#fff;
 	border:0px;
-	font-family: 'Montserrat', sans-serif;
 	border-radius:50px;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -2193,7 +2208,6 @@ margin-top: 15px;
     text-align: center;
     line-height: 51px;
     font-size: 16px;
-	font-family: 'Montserrat', sans-serif;
     border-radius: 45px;
     text-transform: capitalize;
     font-weight: 500;
@@ -2229,7 +2243,6 @@ margin-top: 15px;
     font-weight: 600;
     color: white;
     margin-top: 20px;
-    font-family: 'Montserrat', sans-serif;
 }
 .counter_section .count-description {
     font-size: 34px;
@@ -2401,7 +2414,6 @@ margin-top: 15px;
 	font-size:18px;
 	margin-right:5px;
 	font-weight:600;
-	font-family: 'Montserrat', sans-serif;
 	top:-21px;
 }
 .box1_heading_wrapper h1 span{
@@ -2409,7 +2421,6 @@ margin-top: 15px;
 	font-size:16px;
 	margin-left:3px;
 	font-weight:600;
-	font-family: 'Montserrat', sans-serif;
 }
 .pricing_cont{
 	display:inline-block;
@@ -2526,7 +2537,6 @@ margin-top: 15px;
 .pricing_btn li a{
 	width:190px;
 	height:50px;
-	font-family: 'Montserrat', sans-serif;
 	line-height:50px;
 	background:#fff;
 	font-size:18px;
@@ -2631,7 +2641,6 @@ margin-top: 15px;
 	border-radius:50px;
 	font-size:16px;
 	font-weight:500;
-	font-family: 'Montserrat', sans-serif;
 	border:0;
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -2824,7 +2833,6 @@ margin-top: 15px;
     font-weight: 600;
 	font-size:14px;
     cursor: pointer;
-	font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
 	background: transparent;
     border-radius: 50px;
@@ -3198,7 +3206,6 @@ margin-top: 15px;
 	color:#1d3571;
 	font-size:16px;
 	font-weight:500;
-	font-family: 'Montserrat', sans-serif;
 }
 .tb_btm_link_left li a{
 	float:left;
@@ -3227,7 +3234,6 @@ font-weight:400;
 	color:#1d3571;
 	font-size:16px;
 	font-weight:500;
-	font-family: 'Montserrat', sans-serif;
 }
 .tb_btm_link_right li a{
 	float:left;
@@ -4638,7 +4644,6 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, inp
 	margin-bottom:40px;
 	text-transform:capitalize;
 	font-weight:600;
-	font-family: 'Montserrat', sans-serif;
 	background:#fff;
 	border-radius:30px;
 	box-shadow:0px 8px 20px rgba(0, 0, 0, 0.06);
@@ -6013,7 +6018,7 @@ a.level {
         color: #1d3571;
         line-height: 2;
         font-size: 14px;
-        font-family: 'Montserrat', sans-serif;
+
         text-transform: capitalize;
         padding: 15px;
         padding-bottom: 0;
@@ -7234,7 +7239,6 @@ nav ul li:nth-child(9) > ul {
     font-size: 16px;
     font-weight: 600;
     border: 0;
-    font-family: 'Montserrat', sans-serif;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
