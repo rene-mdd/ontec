@@ -29,7 +29,7 @@ Author:   Webstrot
 19.footer_wrapper
 
 /*----------------body start------------------*/
-@font-face {
+/* @font-face {
     font-family: 'Poppins', sans-serif;
     src: url("./fonts/poppins/Poppins-Black.ttf"),
     url("./fonts/poppins/Poppins-Black.ttf"),
@@ -46,10 +46,30 @@ Author:   Webstrot
     url("./fonts/poppins/Poppins-MediumItalic.ttf"),
     url("./fonts/poppins/Poppins-SemiBold.ttf"),
     url("./fonts/poppins/Poppins-Thin.ttf");
+} */
+@font-face {
+    font-family: "Karla", sans-serif;
+    src: url("../fonts/karla/Karla-Light.ttf");
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Karla", sans-serif;
+    src: url("../fonts/karla/Karla-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Karla", sans-serif;
+    src: url("../fonts/karla/Karla-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Karla", sans-serif;
+    src: url("../fonts/karla/Karla-Regular.ttf");
+    font-weight: 400;
 }
 body,
 html {
-    font-family: 'Poppins', sans-serif !important;
+    font-family: "Karla", sans-serif !important;
     line-height: 26px;
     font-weight: 300;
     font-size: 16px;
